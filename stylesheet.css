@@ -5,7 +5,7 @@ Last modified 07/08/2016
 */
 
 .background {
-	background-image: url('background.jpg');
+	background-image: url('images/background.jpg');
 	background-position: center top;
 	background-size: cover;
 	padding: 250px;
