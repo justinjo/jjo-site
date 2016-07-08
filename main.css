@@ -1,0 +1,26 @@
+/*
+JustinJo.com
+By Justin Jo
+Last modified 07/08/2016
+*/
+
+.background {
+	background-image: url('background.jpg');
+	background-position: center top;
+	background-size: cover;
+	padding: 250px;
+}
+
+h1 {
+	color: #d22532;
+	font-family: 'Comic Sans MS', monospace;
+}
+
+h2 {
+	color: blue;
+}
+
+p {
+	color: #ffffff;
+	font-family: 'Baskerville', sans-serif;
+}
