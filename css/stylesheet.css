@@ -11,14 +11,14 @@ Last modified 07/15/2016
    box-sizing: border-box;
 }
 
-.background {
-	background-image: url('images/background.jpg');
+html {
+	background-image: url('../images/background.jpg');
+   background-size: cover;
+   background-position: center top;
    background-repeat: no-repeat;
-   background-size: contain;
-   /*background-size: 100% 100%;
-	background-position: center top;*/
-	/*background-size: cover;*/
-	padding: 250px;
+   /*background-size: contain;*/
+   /*background-size: 100% 100%;*/
+	padding: 20px;
 }
 
 .sidebar {
@@ -27,7 +27,7 @@ Last modified 07/15/2016
 }
 
 h1 {
-	color: #d22532;
+	color: #dddddd;
 	font-family: 'Arial','Helvetica', monospace;
 }
 
@@ -36,5 +36,6 @@ h2 {
 }
 
 p {
+   color: #000;
 	font-family: 'Baskerville', sans-serif;
 }
