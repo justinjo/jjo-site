@@ -1,19 +1,34 @@
 /*
 JustinJo.com
 By Justin Jo
-Last modified 07/08/2016
+Last modified 07/15/2016
 */
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   -o-box-sizing: border-box;
+   box-sizing: border-box;
+}
 
 .background {
 	background-image: url('images/background.jpg');
-	background-position: center top;
-	background-size: cover;
+   background-repeat: no-repeat;
+   background-size: contain;
+   /*background-size: 100% 100%;
+	background-position: center top;*/
+	/*background-size: cover;*/
 	padding: 250px;
+}
+
+.sidebar {
+   padding: 250px;
+   box-shadow: 1;
 }
 
 h1 {
 	color: #d22532;
-	font-family: 'Comic Sans MS', monospace;
+	font-family: 'Arial','Helvetica', monospace;
 }
 
 h2 {
@@ -21,6 +36,5 @@ h2 {
 }
 
 p {
-	color: #ffffff;
 	font-family: 'Baskerville', sans-serif;
 }
