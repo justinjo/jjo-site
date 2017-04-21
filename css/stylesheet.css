@@ -28,15 +28,17 @@ body {
 }
 
 .sidebar {
-   padding: 50px;
+   padding: 0px;
    float: left;
    height: 100vh;
-   width: 40%;
+   width: 50%;
    background-color: rgba(255,255,255,0.5);
 }
 
 h1 {
+   padding-left: 50px;
 	color: #666;
+   font-size: 50pt;
 	font-family: 'Asar', serif;
 }
 
@@ -45,6 +47,11 @@ h2 {
 }
 
 p {
-   color: #000;
+   color: #555;
 	font-family: 'Asar', serif;
+   font-size: 30pt;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin: 0 auto;
+   max-width: 50em
 }
