@@ -54,20 +54,21 @@ a, p {
    overflow-y: auto;
 }
 
-
-@media (min-width: 751px) {
+/* desktop only */
+@media (min-width: 750px) {
    .sidebar {
       width: 50%;
    }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 749px) {
    .sidebar {
-      width: 80%;
+      width: 100%;
    }
 }
 
-@media only screen and (orientation: landscape) {
+/* mobile only */
+@media only screen and (orientation: landscape) and (max-device-width: 750px) {
    html {
       background-position: center right;
    }
@@ -76,7 +77,7 @@ a, p {
    }
 }
 
-@media only screen and (orientation: portrait){
+@media only screen and (orientation: portrait) and (max-device-width: 500px) {
    html {
       background-position: center;
    }
