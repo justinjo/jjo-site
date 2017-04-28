@@ -31,6 +31,7 @@ h1 {
    text-align: left;
    font-size: 50pt;
    font-family: 'Asar', serif;
+   font-weight: normal;
 }
 
 a, p {
@@ -41,6 +42,7 @@ a, p {
    padding-right: 50px;
    margin: 0 auto;
    max-width: 50em
+   font-weight: normal;
 }
 
 .sidebar {
