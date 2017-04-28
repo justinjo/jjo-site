@@ -67,13 +67,16 @@ a, p {
    }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (orientation: landscape) {
+   html {
+      background-position: center right;
+   }
    .sidebar {
-      width: 50;
+      width: 50%;
    }
 }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (orientation: portrait){
    html {
       background-position: center;
    }
