@@ -29,7 +29,7 @@ h1 {
    padding-left: 50px;
    color: #555;
    text-align: left;
-   font-size: 50pt;
+   font-size: 420%;
    font-family: 'Asar', serif;
    font-weight: normal;
 }
@@ -37,7 +37,7 @@ h1 {
 a, p {
    color: #444;
    font-family: 'Asar', serif;
-   font-size: 30pt;
+   font-size: 250%;
    padding-left: 50px;
    padding-right: 50px;
    margin: 0 auto;
@@ -75,10 +75,10 @@ a, p {
       width: 100%;
    }
    h1 {
-      font-size: 100pt;
+      font-size: 840%;
    }
    a, p {
-      font-size: 70pt;
+      font-size: 575%;
       padding-right: 140px;
    }
 }
